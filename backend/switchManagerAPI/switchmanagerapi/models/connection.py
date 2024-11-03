@@ -1,7 +1,8 @@
 from datetime import datetime
 from enum import Enum
 from typing import Optional
-from pydantic import BaseModel, ConfigDict, Field, validator, model_validator, computed_field, UUID4
+from pydantic import BaseModel, ConfigDict, Field, validator, model_validator, computed_field
+from uuid import uuid4 as UUID4
 from .customer import Customer
 from .switch import Switch
 from .factories import OrderBy, batcheableOutputFactory

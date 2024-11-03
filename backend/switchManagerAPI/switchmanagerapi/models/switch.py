@@ -1,5 +1,6 @@
 from typing import Optional
-from pydantic import BaseModel, Field, validator, UUID4
+from pydantic import BaseModel, Field, validator
+from uuid import uuid4 as UUID4
 import re
 from .factories import batcheableOutputFactory
 

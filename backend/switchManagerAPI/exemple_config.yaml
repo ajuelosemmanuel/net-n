@@ -26,7 +26,7 @@ sync:
     user: source_db_user
     password: source_db_pass
     host: "0.0.0.0"
-    port: 1521
+    port: 1522
     database: source_db_name
     table: source_table_name
     # use the url parameter if you want to use a service name or other specific attributes for the connection
@@ -40,7 +40,7 @@ sync:
     table: "public.customers"
 
   # api url to the backend
-  api_url: "http://localhost:8080"
+  api_url: "http://localhost:8001"
 
   # column names in the source table (mapping to the backend table)
   mapping:

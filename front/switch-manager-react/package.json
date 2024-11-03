@@ -33,7 +33,7 @@
     "@snyk/protect": "latest"
   },
   "scripts": {
-    "start": "VITE_API_URL=http://0.0.0.0:8000 vite",
+    "start": "VITE_API_URL=http://0.0.0.0:8001 vite",
     "build": "vite build",
     "preview": "vite preview",
     "test": "jest",
